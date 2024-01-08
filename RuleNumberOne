@@ -1,0 +1,1 @@
+(cf.threat_score gt 5) or (not ssl) or (ip.src in {::/0}) or ((http.request.version eq "HTTP/1.0") or (http.request.version eq "HTTP/1.1")) and ((ip.geoip.country eq "T1") or (ip.geoip.country eq "XX")) and ((http.request.uri.path contains ".php") or (http.request.method eq "POST" or http.request.method eq "GET") and ((not cf.client.bot) or (http.user_agent contains "Mozilla")))
