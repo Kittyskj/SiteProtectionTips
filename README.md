@@ -52,9 +52,10 @@
 
 ## Stress Testing Scripts  
 
-- **DDoSify (Free/Script)** <a href="https://github.com/ddosify/ddosify">click</a>  
-  > A simple script to simulate virtual load testing on your site and create custom attack scenarios.  
+- **Anteon (Free/Script)** <a href="https://github.com/getanteon/anteon">click</a>  
+  > Anteon is an open-source, eBPF-based platform for Kubernetes monitoring and performance testing, providing automatic service mapping, real-time metrics, and no-code load testing.  
 - **MHDDoS (Free/Script)** <a href="https://github.com/MatrixTM/MHDDoS">click</a>  
+  > MHDDoS is an open-source Python 3 tool with 56 attack methods for testing network resilience against DDoS attacks.  
 
 ## Useful Scripts  
 
